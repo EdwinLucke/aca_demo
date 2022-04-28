@@ -4,9 +4,9 @@ az extension add --name containerapp
 
 az provider register --namespace Microsoft.App
 
-RESOURCE_GROUP="my-container-apps"
-LOCATION="canadacentral"
-CONTAINERAPPS_ENVIRONMENT="my-environment"
+RESOURCE_GROUP="my-qtree-container-apps"
+LOCATION="westeurope"
+CONTAINERAPPS_ENVIRONMENT="my-qtree-environment"
 
 az group create --name $RESOURCE_GROUP --location $LOCATION
 
@@ -16,7 +16,7 @@ az containerapp env create \
   --location $LOCATION
 
 az containerapp create \
-  --name my-container-app \
+  --name my-qtree-container-01-app \
   --resource-group $RESOURCE_GROUP \
   --environment $CONTAINERAPPS_ENVIRONMENT \
   --image mcr.microsoft.com/azuredocs/containerapps-helloworld:latest \

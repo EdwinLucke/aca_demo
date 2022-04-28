@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <SpecFlowFeatureFiles Update="Features\MultipleContainerRevisions - Copy.feature">
+    <SpecFlowFeatureFiles Update="Features\ACA_CreateInitial_Helloworld.feature">
       <Visible>$(UsingMicrosoftNETSdk)</Visible>
       <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
     </SpecFlowFeatureFiles>
