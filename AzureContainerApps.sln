@@ -10,9 +10,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bash", "bash", "{7EB000A8-9
 		cicd\bash\create_initial_aca_helloworld.sh = cicd\bash\create_initial_aca_helloworld.sh
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACA_Features", "docs\Features\ACA_Features.csproj", "{003A044E-CE63-4FA8-8047-AE6CA8AD7EE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACA_Features", "docs\Features\ACA_Features.csproj", "{003A044E-CE63-4FA8-8047-AE6CA8AD7EE2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{F4972942-3192-4BDD-B921-9F69F5239046}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "powershell", "powershell", "{112421C5-CE73-4294-900D-FEAC056E1A4B}"
+	ProjectSection(SolutionItems) = preProject
+		create_initial_aca_helloworld.ps1 = create_initial_aca_helloworld.ps1
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7EB000A8-96F9-4621-9A1F-4A94E0B31C95} = {6F6744FC-A0B6-4A7F-BA3E-F25976BCAC36}
 		{003A044E-CE63-4FA8-8047-AE6CA8AD7EE2} = {F4972942-3192-4BDD-B921-9F69F5239046}
+		{112421C5-CE73-4294-900D-FEAC056E1A4B} = {6F6744FC-A0B6-4A7F-BA3E-F25976BCAC36}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19E5C9A8-EFE4-4073-98B5-FA4CB259BDFA}
