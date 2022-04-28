@@ -16,10 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Drivers\" />
-    <Folder Include="App\" />
     <Folder Include="StepDefinitions\" />
-    <Folder Include="Support\" />
   </ItemGroup>
 
   <ItemGroup>
